@@ -1,0 +1,24 @@
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+}
+
+// comment so you don't need google-services.json when you gradlew assemble
+//apply plugin: 'com.google.gms.google-services'

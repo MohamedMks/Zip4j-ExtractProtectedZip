@@ -1,0 +1,3 @@
+gradlew assemble
+gradlew assemble --info
+  in Tirminal

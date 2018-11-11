@@ -1,0 +1,14 @@
+
+import net.lingala.zip4j.core.ZipFile;
+import net.lingala.zip4j.exception.ZipException;
+
+
+try {
+      ZipFile zipFilee = new ZipFile("zipFile");
+      if (zipFilee.isEncrypted()) {
+         zipFilee.setPassword("password");
+      }
+      zipFilee.extractAll("unzipLocation");
+} catch (ZipException e) {
+
+}
