@@ -15,7 +15,7 @@ This is a gradle version of Zip4j old library (from http://www.lingala.net/zip4j
 ```
   - add this to your module dependencies.
 ```sh
-     implementation 'org.bitbucket.MohamedMks:zip4j-extractprotectedzip:1.0'
+     implementation 'com.github.MohamedMks:Zip4j-ExtractProtectedZip:1.0'
 ```
 
 # How to use this library  !
@@ -36,20 +36,9 @@ This is a gradle version of Zip4j old library (from http://www.lingala.net/zip4j
 
 No need for any .
 
-| Plugin | Link |
-| ------ | ------ |
-| Name | url |
-
-### Todos
-
- - Encryption 
-
 License
 ----
 
 Free For ALL
-
-
-**Free Software, Hell Yeah!**
 
 
